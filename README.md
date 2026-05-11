@@ -1,73 +1,72 @@
-# React + TypeScript + Vite
+# 🧭 Kabu Compass — 株式投資ラーニング
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+株式投資を入門から中級までステップで学べる、インタラクティブな学習サイト。
 
-Currently, two official plugins are available:
+## 特徴
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📚 **6章 + 約20レッスン構成のロードマップ** — 「お金の旅」から、ポートフォリオ理論、応用ケーススタディまで
+- 🧪 **6つのインタラクティブシミュレーター**
+  - 複利シミュレーター
+  - 板情報・注文シミュレーター
+  - PER/PBR/ROE/配当利回り 電卓
+  - ローソク足プレイグラウンド
+  - 分散投資シミュレーター
+  - ケーススタディ（分岐選択型）
+- 📝 **章末クイズ × 6章 30問**（解説つき）
+- 📱 **モバイル完全対応**
+- 💾 **進捗はブラウザの localStorage に自動保存**
+- 🎉 **レッスン完了で祝福フィードバック・全コンプリートでお祝い演出**
 
-## React Compiler
+## 学習内容
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Chapter | テーマ |
+|--------|------|
+| Intro  | お金の旅 — 入金から利益確定・出金までの全体像 |
+| Ch.1   | 株の基礎を知る（株式とは／株価の動き／取引所／NISA・iDeCo） |
+| Ch.2   | 投資を始める（成行・指値・逆指値／コスト／DCA） |
+| Ch.3   | 銘柄を分析する（PER/PBR/ROE／財務3表／バリュエーション） |
+| Ch.4   | チャートを読む（ローソク足／移動平均線／パターン／出来高） |
+| Ch.5   | ポートフォリオを組む（リスク／分散／アセアロ／心理） |
+| Advanced | 日本株・米国株の実例 + 10ケーススタディ |
 
-## Expanding the ESLint configuration
+## 技術スタック
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Vite + React + TypeScript
+- Tailwind CSS
+- React Router (HashRouter)
+- Recharts（グラフ）
+- Zustand + localStorage（進捗管理）
+- Framer Motion（アニメーション）
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## セットアップ
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+http://localhost:5173 でローカル開発。
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### ビルド
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+### GitHub Pages へのデプロイ
+
+```bash
+npm run deploy
+```
+
+`gh-pages` ブランチに `dist/` の中身を push する。
+GitHub のリポジトリ設定で Pages のソースを `gh-pages` ブランチに指定すれば自動公開される。
+
+## 注意事項
+
+本サイトは教育目的の情報提供であり、特定の銘柄の売買を推奨するものではありません。
+投資判断はご自身の責任で行ってください。掲載しているデータや指標値は学習用の例示で、最新の市場価格・財務情報を保証するものではありません。
+
+## ライセンス
+
+MIT
