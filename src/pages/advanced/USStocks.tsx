@@ -48,10 +48,10 @@ export function USStocks() {
           sector="情報技術"
           businessModel="Windows・Officeに加え、クラウドのAzure（世界2位）、LinkedIn、GitHub、Xboxなどを展開。生成AIのOpenAIに大型投資し、リーダーの一角。"
           checkpoint={[
-            { label: 'PER', value: '約30〜35倍（高成長プレミアム）', tone: 'mid' },
-            { label: 'PBR', value: '約10倍（高ROEを反映）', tone: 'mid' },
-            { label: 'ROE', value: '約35〜45%（米国大型株でも上位）', tone: 'good' },
-            { label: '配当利回り', value: '約0.7%（増配を続ける高品質株）', tone: 'mid' },
+            { label: 'PER', value: '約25〜35倍（高成長プレミアム）', tone: 'mid' },
+            { label: 'PBR', value: '約7〜10倍（高ROEを反映）', tone: 'mid' },
+            { label: 'ROE', value: '約30〜40%（米国大型株でも上位）', tone: 'good' },
+            { label: '配当利回り', value: '約0.7〜0.9%（増配を続ける高品質株）', tone: 'mid' },
           ]}
           insights={[
             'Azure の成長率が株価ドライバー',
@@ -70,7 +70,7 @@ export function USStocks() {
           businessModel="米国大型株500社に連動するETF。Apple、Microsoft、NVIDIA、Amazon、Googleなど。1本買えば米国の主要500社のオーナーに。"
           checkpoint={[
             { label: '経費率', value: '0.03%（極めて低コスト）', tone: 'good' },
-            { label: '配当利回り', value: '約1.3〜1.5%（年4回分配）', tone: 'mid' },
+            { label: '配当利回り', value: '約1.0〜1.5%（年4回分配）', tone: 'mid' },
             { label: '過去20年リターン', value: '年率約9〜10%（配当込み）', tone: 'good' },
             { label: '最大ドローダウン', value: '約-50%（リーマンショック時）', tone: 'mid' },
           ]}
@@ -91,8 +91,8 @@ export function USStocks() {
           businessModel="世界中の約9,000銘柄に分散。米国約60% + 先進国（日本、欧州等）30% + 新興国10%程度。"
           checkpoint={[
             { label: '経費率', value: '0.06%', tone: 'good' },
-            { label: '配当利回り', value: '約2%', tone: 'mid' },
-            { label: '銘柄数', value: '約9,000銘柄', tone: 'good' },
+            { label: '配当利回り', value: '約1.5〜2%', tone: 'mid' },
+            { label: '銘柄数', value: '約10,000銘柄', tone: 'good' },
             { label: 'リバランス', value: '不要（時価総額加重で自動調整）', tone: 'good' },
           ]}
           insights={[

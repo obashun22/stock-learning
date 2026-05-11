@@ -39,10 +39,10 @@ export function Ch5Lesson4() {
         </p>
         <div className="card p-5 bg-rose-50/40 border-rose-100">
           <div className="text-base font-bold text-rose-900 leading-relaxed">
-            「米国の大型株アクティブファンドの <strong className="text-rose-700 text-xl">約85%</strong> が、
+            「米国の大型株アクティブファンドの <strong className="text-rose-700 text-xl">90%以上</strong> が、
             15年間でS&P500に負けている」
           </div>
-          <div className="text-xs text-rose-800 mt-2">出典：SPIVA U.S. Scorecard（複数年）</div>
+          <div className="text-xs text-rose-800 mt-2">出典：SPIVA U.S. Scorecard 2024年末時点</div>
         </div>
         <p>
           理由はシンプル：<strong>高いコスト（信託報酬・売買コスト）が勝ち分を食い潰す</strong> から。
@@ -85,7 +85,7 @@ export function Ch5Lesson4() {
               <tr><td className="p-2.5 border border-slate-200">eMAXIS Slim 全世界株式（オール・カントリー）</td><td className="p-2.5 border border-slate-200">MSCI ACWI</td><td className="p-2.5 border border-slate-200">0.0577%</td></tr>
               <tr className="bg-slate-50/50"><td className="p-2.5 border border-slate-200">eMAXIS Slim 米国株式（S&P500）</td><td className="p-2.5 border border-slate-200">S&P500</td><td className="p-2.5 border border-slate-200">0.09372%</td></tr>
               <tr><td className="p-2.5 border border-slate-200">SBI・V・S&P500</td><td className="p-2.5 border border-slate-200">S&P500</td><td className="p-2.5 border border-slate-200">0.0938%</td></tr>
-              <tr className="bg-slate-50/50"><td className="p-2.5 border border-slate-200">楽天・全世界株式</td><td className="p-2.5 border border-slate-200">FTSE Global All Cap</td><td className="p-2.5 border border-slate-200">0.192%</td></tr>
+              <tr className="bg-slate-50/50"><td className="p-2.5 border border-slate-200">楽天・全世界株式</td><td className="p-2.5 border border-slate-200">FTSE Global All Cap</td><td className="p-2.5 border border-slate-200">0.179%（実質0.178%）</td></tr>
             </tbody>
           </table>
         </div>

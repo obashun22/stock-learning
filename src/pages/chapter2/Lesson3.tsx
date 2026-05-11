@@ -96,7 +96,7 @@ function MissingBestDaysChart() {
   return (
     <div className="card p-4">
       <div className="text-sm font-semibold mb-2">
-        「市場を離れたタイミング」と年率リターン（米国株20年の例示）
+        「市場を離れたタイミング」と年率リターン（Putnam Investments 2003-2018年の調査をもとにした例示）
       </div>
       <div className="space-y-2.5">
         {data.map((d) => (

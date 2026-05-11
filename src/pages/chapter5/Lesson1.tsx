@@ -26,7 +26,7 @@ export function Ch5Lesson1() {
       <Section title="📏 標準偏差で「ブレ幅」を測る">
         <p>
           例えば、ある株のリターンが年率5%、標準偏差が15%だったとします。
-          これは「68%の確率で、年間リターンは <strong>-10%〜+20%の間に収まる</strong>」 という意味です。
+          リターンが正規分布に従うと仮定すれば「約68%の確率で、年間リターンは <strong>-10%〜+20%の間に収まる</strong>」と読めます。
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse min-w-[420px]">

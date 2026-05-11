@@ -50,7 +50,7 @@ export function Ch2Lesson2() {
             </thead>
             <tbody className="bg-white">
               <tr><td className="p-2.5 border border-slate-200">国内株（現物）</td><td className="p-2.5 border border-slate-200">無料〜数百円</td></tr>
-              <tr className="bg-slate-50/50"><td className="p-2.5 border border-slate-200">米国株</td><td className="p-2.5 border border-slate-200">約定代金の0.45%（上限$22程度）</td></tr>
+              <tr className="bg-slate-50/50"><td className="p-2.5 border border-slate-200">米国株</td><td className="p-2.5 border border-slate-200">約定代金の0.495%（税込・上限$22）</td></tr>
               <tr><td className="p-2.5 border border-slate-200">投資信託（買付）</td><td className="p-2.5 border border-slate-200">ノーロード（無料）が主流</td></tr>
             </tbody>
           </table>

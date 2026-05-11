@@ -68,16 +68,16 @@ export function JapanStocks() {
           sector="金融"
           businessModel="日本最大の銀行グループ。銀行・信託・証券・カード・リース・米国モルガン・スタンレーへの出資など多角的。"
           checkpoint={[
-            { label: 'PER', value: '約10〜13倍（金融セクターは低めが普通）', tone: 'low' },
-            { label: 'PBR', value: '約0.8〜1.0倍（割安水準）', tone: 'low' },
-            { label: 'ROE', value: '約7〜9%（金融としては標準）', tone: 'mid' },
-            { label: '配当利回り', value: '約3〜4%（高配当）', tone: 'good' },
+            { label: 'PER', value: '約12〜17倍（金利上昇期待で再評価）', tone: 'mid' },
+            { label: 'PBR', value: '約1.0〜1.5倍（PBR1倍割れから脱却）', tone: 'mid' },
+            { label: 'ROE', value: '約9〜10%（収益力改善）', tone: 'mid' },
+            { label: '配当利回り', value: '約2.5〜3.5%（増配傾向）', tone: 'good' },
           ]}
           insights={[
             '日銀の金融政策（金利動向）の影響を強く受ける',
             '金利上昇局面では「貸出金利↑」で利益が伸びやすい',
             '高配当でインカム狙いの長期投資家に人気',
-            'バリュー株代表。市場全体が割安なときに強さを発揮',
+            'かつてPBR1倍割れの代表格 → 株価上昇でバリュー卒業中。今は「収益力改善で見直されている銘柄」の典型例',
           ]}
         />
       </Section>

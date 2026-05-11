@@ -18,8 +18,8 @@ export function Ch1Lesson1() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <RightCard
             emoji="💰"
-            title="利益配分を受け取る権利"
-            desc="会社が儲かったら、その一部を「配当金」として受け取れます。"
+            title="剰余金配当請求権"
+            desc="会社が儲かったら、その一部を「配当金」として受け取れる権利（会社法105条）。"
           />
           <RightCard
             emoji="🗳️"
